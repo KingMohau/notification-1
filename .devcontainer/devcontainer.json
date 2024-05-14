@@ -1,0 +1,16 @@
+{
+    "name": "Android Development",
+    "image": "mcr.microsoft.com/vscode/devcontainers/java:0-11",
+    "runArgs": ["--privileged"],
+    "mounts": [
+        "source=/dev/kvm,target=/dev/kvm,type=bind"
+    ],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "vscjava.vscode-java-pack",
+                "esbenp.prettier-vscode"
+            ]
+        }
+    }
+}
